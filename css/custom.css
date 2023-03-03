@@ -363,6 +363,9 @@ html .btn-outline.btn-dark:hover, html .btn-outline.btn-dark.hover {
     background-color: #db2428;
     border-color: #db2428;
 }
+html .text-color-primary, html .text-primary {
+    color: #db2428 !important;
+}
 
 @media(max-width:2560px){
     /*.fine-art2 img {*/

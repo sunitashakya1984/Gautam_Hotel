@@ -383,8 +383,23 @@ html .btn-primary:hover:not(.bg-transparent), html .btn-primary.hover:not(.bg-tr
 }
 html .btn-outline.btn-primary:hover, html .btn-outline.btn-primary.hover {
     color: #fff;
-    background-color: #ab8651;
+    background-color: #db2428;
     border-color: #db2428;
+}
+html .btn-outline.btn-primary {
+    color: #002b83;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00297f;
+}
+.owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"] {
+    background-color: #db2428;
+    border-color: #ab8651 #ab8651 #ab8651;
+    color: #fff;
+}
+.owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"]:hover, .owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav button[class*="owl-"].hover {
+    background-color: #db2428;
+    border-color: #fec08d #fec08d #FEA45A;
 }
 
 @media(max-width:2560px){

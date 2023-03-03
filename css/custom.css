@@ -125,15 +125,23 @@ section.section.section-height-4 {
 .serv11-inner{
 	background: #00000040;
 	height: 100%;
+    position: relative;
 }
+
+.serv11-inner .servi-text{
+    position: relative;
+}
+
+
 .servi1 h2{
-	position: absolute;
+/*	position: absolute;*/
     top: 47%;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 600;
     text-align: center;
     left: 8%;
+    padding-top: 99%;
 }
 .servi2{
 	background-image: url(../img/projects/meeting.jpg);
@@ -141,13 +149,15 @@ section.section.section-height-4 {
     position: relative;
 }
 .servi2 h2{
-	position: absolute;
+/*	position: absolute; */
     top: 47%;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 600;
-    /* text-align: center; */
+    text-align: center;
     left: 8%;
+    /* margin-top: 12%; */
+    padding-top: 99%;
 }
 .servi3{
 	background-image: url(../img/projects/food.jpg);
@@ -155,18 +165,19 @@ section.section.section-height-4 {
     position: relative;
 }
  .servi3 h2{
-	position: absolute;
+/*	position: absolute;*/
     top: 47%;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 600;
-    /* text-align: center; */
+     text-align: center; 
     left: 8%;
+    padding-top: 99%;
 }
 
 .servi1 a, .servi2 a, .servi3 a{
 	position: absolute;
-    top: 58%;
+    top: 103%;
     left: 38%;
     color: #fff;
     border: 1px solid #fff;
@@ -365,6 +376,15 @@ html .btn-outline.btn-dark:hover, html .btn-outline.btn-dark.hover {
 }
 html .text-color-primary, html .text-primary {
     color: #db2428 !important;
+}
+html .btn-primary:hover:not(.bg-transparent), html .btn-primary.hover:not(.bg-transparent) {
+    background-color: #db2428;
+    color: #fff;
+}
+html .btn-outline.btn-primary:hover, html .btn-outline.btn-primary.hover {
+    color: #fff;
+    background-color: #ab8651;
+    border-color: #db2428;
 }
 
 @media(max-width:2560px){

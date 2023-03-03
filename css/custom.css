@@ -71,7 +71,7 @@ html.side-header-overlay-full-screen #header .header-body {
 html.side-header-overlay-full-screen #header {
     display: flex;
     align-items: center;
-    background-color: rgb(144 116 66);
+    background-color: rgb(205 34 37);
     position: fixed;
     box-shadow: 0 0 18pxrgba(68,68,68,.07);
     top: 0;
@@ -349,7 +349,9 @@ html body .tabs-dark .nav-tabs li .nav-link{
 .content-text h3{
     text-align:center;
 }
-
+html .btn-dark:hover:not(.bg-transparent), html .btn-dark.hover:not(.bg-transparent) {
+    background-color: #db2428;
+}
 
 @media(max-width:2560px){
     /*.fine-art2 img {*/

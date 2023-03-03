@@ -19,7 +19,7 @@
     top: 0px;
 }
 .sticky-wrapper.sticky-wrapper-effect-1.sticky-wrapper-effect-1-dark.sticky-effect-active .logo-top img {
-    width: 69px;
+    width: 91px;
 }
 .sticky-wrapper.sticky-wrapper-effect-1.sticky-wrapper-effect-1-dark.sticky-effect-active .logo-side {
     margin-top: 0px;
@@ -351,6 +351,17 @@ html body .tabs-dark .nav-tabs li .nav-link{
 }
 html .btn-dark:hover:not(.bg-transparent), html .btn-dark.hover:not(.bg-transparent) {
     background-color: #db2428;
+}
+html .btn-outline.btn-dark {
+    color: #222222;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00297f;
+}
+html .btn-outline.btn-dark:hover, html .btn-outline.btn-dark.hover {
+    color: #FFF;
+    background-color: #db2428;
+    border-color: #db2428;
 }
 
 @media(max-width:2560px){

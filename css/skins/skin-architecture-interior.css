@@ -1305,7 +1305,7 @@ html .btn-dark.focus {
 }
 html .btn-dark:focus:not(.bg-transparent),
 html .btn-dark.focus:not(.bg-transparent) {
-  background-color: #101214;
+/*  background-color: #101214;*/
 }
 html .btn-dark.disabled,
 html .btn-dark:disabled {
